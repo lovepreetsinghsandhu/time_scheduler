@@ -1,0 +1,159 @@
+*
+{
+	margin: 0;
+}
+body
+{
+
+}
+.ls_container
+{
+	width: 80%;
+	margin: 0px auto;
+}
+.ls_container_inner
+{
+	margin: 20px 10px;
+	border: 1px solid #5E35B1;
+    box-shadow: 0px 0px 2px 2px grey;
+    background-color: floralwhite;
+}
+.ls_header_box
+{
+	background-image: url('../images/background.jpg');
+  	height:100px;  
+  	border-radius: 0 0 100% 100%;
+  	box-shadow: 0px 10px 20px 0px #ccc;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	color: white;
+}
+.ls_title
+{
+	font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+}
+.ls_body
+{
+	padding: 20px;
+	text-align: center;
+}
+.ls_input
+{
+	padding: 10px;
+	border: 1px solid #5E35B1;
+	width: 50%;
+	border-radius: 10px;
+}
+.ls_textarea
+{
+	padding: 10px;
+	border: 1px solid #5E35B1;
+	width: 50%;
+	border-radius: 10px;
+	height: 100px;
+}
+.ls_layer_padding
+{
+	padding: 10px;
+	margin-top: 20px;
+}
+.ls_btn
+{
+	padding: 10px;
+	border: none;
+	width: 150px;
+	border-radius: 10px;
+	background-color: #5E35B1;
+	color: white;
+	cursor: pointer;
+}
+.ls_btn_1
+{
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	background-color: #5E35B1;
+	color: white;
+	width: 80%;
+	cursor: pointer;
+}
+.ls_small_box
+{
+	float: left;
+	width: 50%;
+}
+.ls_small_box_2
+{
+	float: left;
+	width: 33%;
+}
+.ls_small_box_3
+{
+	float: left;
+	width: 20%;
+	padding: 10px 0px;
+}
+.ls_small_box_4
+{
+	float: left;
+	width: 80%;
+	padding: 10px 0px;
+}
+.ls_small_box_4_1
+{
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+}
+.ls_clear
+{
+	clear: both;
+}
+.ls_layer_width
+{
+	width: 55%;
+	margin: 0px auto;
+}
+.ls_input_1
+{
+	padding: 10px;
+	border: 1px solid #5E35B1;
+	width: 80%;
+	border-radius: 10px;
+}
+.ls_data_msg
+{
+	padding: 5px;
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    width: 10%;
+}
+.ls_data_msg_1
+{
+	padding: 5px;
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    width: 80%;
+}
+.ls_record_title
+{
+	font-weight: bold;
+	font-size: 25px;
+}
+.ls_back_color
+{
+	padding-top: 270px;
+    color: white;
+    font-size: 25px;
+    z-index: 0;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(42, 54, 59, 0.5);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time Scheduler App</title>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="css/ls_style.css">
+	<link rel="stylesheet" type="text/css" href="css/ls_media_style.css">
+</head>
+<body>
+<div class="ls_container">
+	<div class="ls_header_box">
+		<div class="ls_title">
+			Time Scheduler
+		</div>
+	</div>
+	<div class="ls_body">
+		<div class="ls_layer_padding">
+			<input type="text" id="name" placeholder="Name" class="ls_input" />
+		</div>
+		<div class="ls_layer_padding">
+			<input type="text" id="pn" placeholder="Phone Number" class="ls_input" />
+		</div>
+		<div class="ls_layer_padding">
+			<textarea id="address" placeholder="Address" class="ls_textarea"></textarea>
+		</div>
+		<div class="ls_layer_padding">
+			<div class="ls_layer_width">
+				<div class="ls_small_box">
+					<input type="date" id="date" placeholder="Concerned Person" class="ls_input_1" />
+				</div>
+				<div class="ls_small_box">
+					<input type="time" id="time" placeholder="Concerned Person" class="ls_input_1" />
+				</div>
+				<div class="ls_clear"></div>
+			</div>
+		</div>
+		<div class="ls_layer_padding">
+			<input type="text" id="cp" placeholder="Concerned Person" class="ls_input" />
+		</div>
+		<div class="ls_layer_padding">
+			<button id="submit" class="ls_btn" onclick="save_task_data()">Submit</button>
+			<button id="redirect" class="ls_btn" onclick="redirect()">View All</button>
+		</div>
+		<div class="ls_layer_padding">
+			<div class="ls_result" id="result">
+				
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/ls_script_new.js"></script>
+</body>
+</html>

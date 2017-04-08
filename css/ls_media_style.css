@@ -1,0 +1,41 @@
+@media screen and (max-width: 640px) {
+	.ls_container
+	{
+		width: 100%;
+	}
+	.ls_small_box_2
+	{
+		width: 100%;
+		float: none;
+		padding: 10px 0px
+	}
+	.ls_small_box_4
+	{
+		width: 100%;
+		float: none;
+	}
+	.ls_small_box_3
+	{
+		width: 50%;
+	}
+	.ls_input
+	{
+		width: 80%;
+	}
+	.ls_textarea
+	{
+		width: 80%;
+	}
+	.ls_layer_width
+	{
+		width: 95%;
+	}
+	.ls_input_1
+	{
+		width: 70%;
+	}
+	.ls_btn
+	{
+		margin-bottom: 10px;
+	}
+}
